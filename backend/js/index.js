@@ -1,9 +1,11 @@
 
-function pizdec() {
-    // let url = 'https://api.github.com/repos/javascript-tutorial/en.javascript.info/commits';
-    // let response = await fetch(url);
-    //
-    // let commits = await response.json(); // читаем ответ в формате JSON
+    let output_text = document.getElementById('output-one');
+    let output_text2 = document.getElementById('output-two');
 
-    alert(commits[0].author.login);
-}
+    let promise = fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json;charset=utf-8'
+        },
+        body: output_text2.innerHTML = "Хуй",
+    });
