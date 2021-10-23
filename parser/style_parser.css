@@ -1,0 +1,24 @@
+.form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.row {
+    background: #f8f9fa;
+    margin-top: 20px;
+}
+
+.item {
+    border: solid 1px #6c757d;
+    padding: 10px;
+    list-style: none;
+}
+
+.error {
+    border: solid 1px red;
+    padding: 10px;
+}
+
+.input {
+    width: 100%;
+}
