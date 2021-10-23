@@ -20,14 +20,14 @@ html {
     justify-content: center;
 }
 
-.bg {
-    background-image: url(/frontend/img/bg.jpg);
-}
-
 .test {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.text-p {
+    margin: 0;
 }
 
 .title {
@@ -46,9 +46,42 @@ html {
     justify-content: space-between;
 }
 
-.style_btn {
+.input-text {
+    width: 100%;
+    border: 1px;
+    border-radius: 2px;
+    color: var(--text-primary-color);
     background-color: var(--bg-primary-color);
+    border-color: var(--border-primary-color);
+    border-style: solid;
+}
+
+.output-text {
+    border: 1px;
+    border-radius: 3px;
+    width: 100%;
+    height: 400px;
+    resize: none;
+    color: var(--text-primary-color);
+    background-color: var(--bg-primary-color);
+    border-color: var(--border-primary-color);
+    border-style: solid;
+}
+
+.style_btn {
+    width: 100%;
+    height: 50px;
+    background-color: var(--button-bg-color);
     border: 1px
     solid var(--border-primary-color);
     border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.style_btn:hover {
+    background-color: var(--button-bg-hover-color);
+}
+
+.style_btn:active {
+    background-color: var(--button-bg-active-color);
 }
